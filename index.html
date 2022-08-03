@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cermati Exercise" />
+    <meta name="author" content="Dio Septian" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Dio Septian | Cermati.com Front-end Developer Entry Test</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="notification" id="notification">
+        <div class="container--notification">
+          <div class="notification__body p--main">
+            <p>
+              By accessing and using this website, you acknowledge that you have
+              read and understand our <a> Cookie Policy, Privacy Policy </a>,
+              and our <a>Terms of Service</a>.
+            </p>
+            <button onclick="hideNotification()">Got it</button>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <header class="header p--main">
+          <img src="./assets/y-logo-white.png" alt="logo" class="head__logo" />
+          <div class="container header__content">
+            <h1 class="m-a-0 text--center">
+              Hello! I'm Dio Septian
+            </h1>
+            <h2 class="text--center">Consult, Design, and Develop Websites</h2>
+            <p class="text--center text--fs-main">
+              Have something great in mind? Feel free to contact me. I'll help
+              you to make it happen
+            </p>
+            <button class="btn--main m-t-2">Let's Make Contact</button>
+          </header>
+        </div>
+        <div class="content p--main">
+          <div class="container">
+            <div class="content__title">
+              <h1 class="text--medium text--center">How Can I Help You?</h1>
+              <p class="text--center m-x-auto">
+                Our work then targeted, best practices outcomes social
+                innovation synergy. Venture philanthropy, revolutionary
+                inclusive policymaker relief. User-centered program areas scale.
+              </p>
+            </div>
+            <div class="content__feature m-t-2">
+              <div class="content__feature__card">
+                <div class="content__feature__card__title">
+                  <h5>Consult</h5>
+                  <i class="fa fa-comments icon--card"></i>
+                </div>
+                <p>
+                  Co-create, design thinking; strengthen infrastructure resist
+                  granular. Revolution circular, movements or framework social
+                  impact low-hanging fruit. Save the world compelling
+                  revolutionary progress.
+                </p>
+              </div>
+              <div class="content__feature__card">
+                <div class="content__feature__card__title">
+                  <h5>Design</h5>
+                  <i class="fa fa-paint-brush icon--card"></i>
+                </div>
+                <p>
+                  Policymaker collaborates collective impact humanitarian shared
+                  value vocabulary inspire issue outcomes agile. Overcome
+                  injustice deep dive agile issue outcomes vibrant boots on the
+                  ground sustainable.
+                </p>
+              </div>
+              <div class="content__feature__card">
+                <div class="content__feature__card__title">
+                  <h5>Develop</h5>
+                  <i class="fa fa-cubes icon--card"></i>
+                </div>
+                <p>
+                  Revolutionary circular, movements a or impact framework social
+                  impact low- hanging. Save the compelling revolutionary inspire
+                  progress. Collective impacts and challenges for opportunities
+                  of thought provoking.
+                </p>
+              </div>
+              <div class="content__feature__card">
+                <div class="content__feature__card__title">
+                  <h5>Marketing</h5>
+                  <i class="fa fa-bullhorn icon--card"></i>
+                </div>
+                <p>
+                  Peaceful; vibrant paradigm, collaborative cities. Shared
+                  vocabulary agile, replicable, effective altruism youth.
+                  Mobilize commitment to overcome injustice resilient, uplift
+                  social transparent effective.
+                </p>
+              </div>
+              <div class="content__feature__card">
+                <div class="content__feature__card__title">
+                  <h5>Manage</h5>
+                  <i class="fa fa-tasks icon--card"></i>
+                </div>
+                <p>
+                  Change-makers innovation or shared unit of analysis. Overcome
+                  injustice outcomes strategize vibrant boots on the ground
+                  sustainable. Optimism, effective altruism invest optimism
+                  corporate social.
+                </p>
+              </div>
+              <div class="content__feature__card">
+                <div class="content__feature__card__title">
+                  <h5>Evolve</h5>
+                  <i class="fa fa-line-chart icon--card"></i>
+                </div>
+                <p>
+                  Activate catalyze and impact contextualize humanitarian. Unit
+                  of analysis overcome injustice storytelling altruism. Thought
+                  leadership mass incarceration. Outcomes big data, fairness,
+                  social game-changer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <p class="text--center m-x-auto">
+            ​© 2020 Dio Septian. All rights reserved.​
+            </p>
+        </footer>
+        <div class="newsletter hide--newsleter" id="newsletter">
+          <p class="icon--close" onclick="closePanel()">X</p>
+          <div class="newsletter__title">
+            <h3>Get latest updates in web technologies</h3>
+            <p>I write articles related to web technologies, such as design trends, development
+              tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get
+              them all.
+              </p>
+          </div>
+          <div class="newsletter__form" >
+            <input type="text" placeholder="Email address">
+            <button>Count me in!</button>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.js" 
+              integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" 
+              crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
